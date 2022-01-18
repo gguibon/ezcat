@@ -1,0 +1,1292 @@
+{
+    "81880244": {
+        "datetime": "19/01/2019 23:52",
+        "duration": "09:04",
+        "labels": {
+            "problemStatus": "Solved",
+            "customerSentiment": "1",
+            "emergency": false
+        },
+        "id": "81880244",
+        "done": true,
+        "messages": [
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 1,
+                "text": "hi ",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 13,
+                "text": "Good evening and welcome the customer service. How can I help you?",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 5,
+                "text": "Are you still there? ",
+                "time": "23:52"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 1,
+                "text": "yes",
+                "time": "23:53"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": "Frustration"
+                },
+                "nbWords": 19,
+                "text": "i can't book my ticket. doesn't work!",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 19,
+                "text": "can you do smth about it?",
+                "time": "23:54"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 19,
+                "text": "Please give me more details on your problem.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 19,
+                "text": "when I try to book my ticket, it freezes and keep loading",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": "Frustration"
+                },
+                "nbWords": 19,
+                "text": "it's not the first time!!",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 19,
+                "text": "is it a browser issue?",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 19,
+                "text": "nevermind I found the problem",
+                "time": "23:54"
+            },
+            {
+                "author": "alert",
+                "labels": {
+                    "emotion": "Neutral"
+                },
+                "nbWords": 9,
+                "text": "The operator just closed the chat window.",
+                "time": "00:01"
+            }
+        ],
+        "nbMessages": 20,
+        "nbMessagesPerSpeakingSlot": 1.8181818181818181,
+        "nbWords": 144,
+        "operator": {
+            "id": "225937",
+            "name": "NOM Prenom",
+            "pseudo": "Pseudo123"
+        },
+        "realDuration": "0:09:00",
+        "speakingSlots": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                {
+                    "author": "alert",
+                    "emotion": null,
+                    "nbWords": 9,
+                    "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                    "time": "00:01"
+                }
+            ]
+        ],
+        "wordsPerMessage": 7.2
+    },
+    "81880245": {
+        "datetime": "19/01/2019 23:52",
+        "duration": "09:04",
+        "problemStatus": null,
+        "customerSentiment": null,
+        "emergency": false,
+        "id": "81880245",
+        "done": true,
+        "messages": [
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "bonsoir ",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 13,
+                "text": "Bonsoir et bienvenue sur Le T’Chat, en quoi puis-je vous être utile ?",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 5,
+                "text": "Êtes-vous toujours en ligne ? ",
+                "time": "23:52"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "oui",
+                "time": "23:53"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "alert",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 9,
+                "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                "time": "00:01"
+            }
+        ],
+        "nbMessages": 20,
+        "nbMessagesPerSpeakingSlot": 1.8181818181818181,
+        "nbWords": 144,
+        "operator": {
+            "id": "225937",
+            "name": "NOM Prenom",
+            "pseudo": "Pseudo123"
+        },
+        "realDuration": "0:09:00",
+        "speakingSlots": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                {
+                    "author": "alert",
+                    "emotion": null,
+                    "nbWords": 9,
+                    "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                    "time": "00:01"
+                }
+            ]
+        ],
+        "wordsPerMessage": 7.2
+    },
+    "81880246": {
+        "datetime": "19/01/2019 23:52",
+        "duration": "09:04",
+        "problemStatus": null,
+        "customerSentiment": null,
+        "emergency": false,
+        "id": "81880246",
+        "done": true,
+        "messages": [
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "bonsoir ",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 13,
+                "text": "Bonsoir et bienvenue sur Le T’Chat, en quoi puis-je vous être utile ?",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 5,
+                "text": "Êtes-vous toujours en ligne ? ",
+                "time": "23:52"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "oui",
+                "time": "23:53"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "alert",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 9,
+                "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                "time": "00:01"
+            }
+        ],
+        "nbMessages": 20,
+        "nbMessagesPerSpeakingSlot": 1.8181818181818181,
+        "nbWords": 144,
+        "operator": {
+            "id": "225937",
+            "name": "NOM Prenom",
+            "pseudo": "Pseudo123"
+        },
+        "realDuration": "0:09:00",
+        "speakingSlots": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                {
+                    "author": "alert",
+                    "emotion": null,
+                    "nbWords": 9,
+                    "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                    "time": "00:01"
+                }
+            ]
+        ],
+        "wordsPerMessage": 7.2
+    },
+    "81880247": {
+        "datetime": "19/01/2019 23:52",
+        "duration": "09:04",
+        "problemStatus": null,
+        "customerSentiment": null,
+        "emergency": false,
+        "id": "81880247",
+        "done": false,
+        "messages": [
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "bonsoir ",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 13,
+                "text": "Bonsoir et bienvenue sur Le T’Chat, en quoi puis-je vous être utile ?",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 5,
+                "text": "Êtes-vous toujours en ligne ? ",
+                "time": "23:52"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "oui",
+                "time": "23:53"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "alert",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 9,
+                "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                "time": "00:01"
+            }
+        ],
+        "nbMessages": 20,
+        "nbMessagesPerSpeakingSlot": 1.8181818181818181,
+        "nbWords": 144,
+        "operator": {
+            "id": "225937",
+            "name": "NOM Prenom",
+            "pseudo": "Pseudo123"
+        },
+        "realDuration": "0:09:00",
+        "speakingSlots": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                {
+                    "author": "alert",
+                    "emotion": null,
+                    "nbWords": 9,
+                    "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                    "time": "00:01"
+                }
+            ]
+        ],
+        "wordsPerMessage": 7.2
+    },
+    "81880248": {
+        "datetime": "19/01/2019 23:52",
+        "duration": "09:04",
+        "problemStatus": null,
+        "customerSentiment": null,
+        "emergency": false,
+        "id": "81880248",
+        "done": false,
+        "messages": [
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "bonsoir ",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 13,
+                "text": "Bonsoir et bienvenue sur Le T’Chat, en quoi puis-je vous être utile ?",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 5,
+                "text": "Êtes-vous toujours en ligne ? ",
+                "time": "23:52"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "oui",
+                "time": "23:53"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "alert",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 9,
+                "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                "time": "00:01"
+            }
+        ],
+        "nbMessages": 20,
+        "nbMessagesPerSpeakingSlot": 1.8181818181818181,
+        "nbWords": 144,
+        "operator": {
+            "id": "225937",
+            "name": "NOM Prenom",
+            "pseudo": "Pseudo123"
+        },
+        "realDuration": "0:09:00",
+        "speakingSlots": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                {
+                    "author": "alert",
+                    "emotion": null,
+                    "nbWords": 9,
+                    "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                    "time": "00:01"
+                }
+            ]
+        ],
+        "wordsPerMessage": 7.2
+    },
+    "81880249": {
+        "datetime": "19/01/2019 23:52",
+        "duration": "09:04",
+        "problemStatus": null,
+        "customerSentiment": null,
+        "emergency": false,
+        "id": "81880249",
+        "done": false,
+        "messages": [
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "bonsoir ",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 13,
+                "text": "Bonsoir et bienvenue sur Le T’Chat, en quoi puis-je vous être utile ?",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 5,
+                "text": "Êtes-vous toujours en ligne ? ",
+                "time": "23:52"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "oui",
+                "time": "23:53"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "alert",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 9,
+                "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                "time": "00:01"
+            }
+        ],
+        "nbMessages": 20,
+        "nbMessagesPerSpeakingSlot": 1.8181818181818181,
+        "nbWords": 144,
+        "operator": {
+            "id": "225937",
+            "name": "NOM Prenom",
+            "pseudo": "Pseudo123"
+        },
+        "realDuration": "0:09:00",
+        "speakingSlots": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                {
+                    "author": "alert",
+                    "emotion": null,
+                    "nbWords": 9,
+                    "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                    "time": "00:01"
+                }
+            ]
+        ],
+        "wordsPerMessage": 7.2
+    },
+    "81880250": {
+        "datetime": "19/01/2019 23:52",
+        "duration": "09:04",
+        "problemStatus": null,
+        "customerSentiment": null,
+        "emergency": false,
+        "id": "81880250",
+        "done": false,
+        "messages": [
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "bonsoir ",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 13,
+                "text": "Bonsoir et bienvenue sur Le T’Chat, en quoi puis-je vous être utile ?",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 5,
+                "text": "Êtes-vous toujours en ligne ? ",
+                "time": "23:52"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "oui",
+                "time": "23:53"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "alert",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 9,
+                "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                "time": "00:01"
+            }
+        ],
+        "nbMessages": 20,
+        "nbMessagesPerSpeakingSlot": 1.8181818181818181,
+        "nbWords": 144,
+        "operator": {
+            "id": "225937",
+            "name": "NOM Prenom",
+            "pseudo": "Pseudo123"
+        },
+        "realDuration": "0:09:00",
+        "speakingSlots": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                {
+                    "author": "alert",
+                    "emotion": null,
+                    "nbWords": 9,
+                    "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                    "time": "00:01"
+                }
+            ]
+        ],
+        "wordsPerMessage": 7.2
+    },
+    "81880251": {
+        "datetime": "19/01/2019 23:52",
+        "duration": "09:04",
+        "problemStatus": null,
+        "customerSentiment": null,
+        "emergency": false,
+        "id": "81880251",
+        "done": false,
+        "messages": [
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "bonsoir ",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 13,
+                "text": "Bonsoir et bienvenue sur Le T’Chat, en quoi puis-je vous être utile ?",
+                "time": "23:52"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 5,
+                "text": "Êtes-vous toujours en ligne ? ",
+                "time": "23:52"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 1,
+                "text": "oui",
+                "time": "23:53"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "operator",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "customer",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 19,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "time": "23:54"
+            },
+            {
+                "author": "alert",
+                "labels": {
+                    "emotion": null
+                },
+                "nbWords": 9,
+                "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                "time": "00:01"
+            }
+        ],
+        "nbMessages": 20,
+        "nbMessagesPerSpeakingSlot": 1.8181818181818181,
+        "nbWords": 144,
+        "operator": {
+            "id": "225937",
+            "name": "NOM Prenom",
+            "pseudo": "Pseudo123"
+        },
+        "realDuration": "0:09:00",
+        "speakingSlots": [
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                
+            ],
+            [
+               
+            ],
+            [
+                {
+                    "author": "alert",
+                    "emotion": null,
+                    "nbWords": 9,
+                    "text": "Le Conseiller vient de fermer la fenêtre de dialogue.",
+                    "time": "00:01"
+                }
+            ]
+        ],
+        "wordsPerMessage": 7.2
+    }
+}
