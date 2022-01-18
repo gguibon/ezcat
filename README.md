@@ -1,3 +1,5 @@
+![EZCAT logo](public/img/ezcat_logo.png)
+
 # EZCAT: an Easy Conversation Annotation Tool
 
 This online annotation tool was first fully dedicated to the annotation campaign made at Télécom Paris and SNCF. While the annotation campaign is over, this annotation tool is still hosted online. We refactored the tool and made it into a customizable applciation dedicated to conversation annotation. We also added some features such as the import of instant messaging applications' conversation in order to enable their easy annotation.
