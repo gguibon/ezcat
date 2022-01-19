@@ -72,6 +72,15 @@ quasar build -m cordova -T android
 
 to finish
 
+# Improvements Coming Soon
+
+- [ ] home page for presentation
+- [ ] project dedicated README
+- [ ] separated technical README
+- [ ] wiki/docs for usage
+- [ ] better handling for logos in the interface
+- [ ] fix telegram import
+- [ ] provide native installers
 
 # Contacts
 
