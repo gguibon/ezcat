@@ -13,7 +13,11 @@
           EZCAT: an Easy Conversation Annotation Tool
         </q-toolbar-title>
 
-        <q-btn flat dense icon="list" aria-label="Home" to="/" label="Chat List">
+        <q-btn flat dense icon="home" aria-label="Home" to="/" label="Home Page">
+          <q-tooltip :delay="200">Click here to go to the home page</q-tooltip>
+        </q-btn>
+        
+        <q-btn flat dense icon="list" aria-label="Hub" to="/hub" label="Chat List">
           <q-tooltip :delay="200">Click here to go back to the conversation list</q-tooltip>
         </q-btn>
 
@@ -22,8 +26,11 @@
         </q-btn>
 
         <q-space />
-        <q-avatar square><img src="img/sncf_logo.svg"></q-avatar>
-        <q-avatar square><img src="img/telecomparis_logo.svg"></q-avatar>
+
+        <q-btn flat dense icon="fab fa-github" aria-label="Github" href="https://github.com/gguibon/ezcat" target="_blank">
+          <q-tooltip :delay="200">Source Code</q-tooltip>
+        </q-btn>
+
       </q-toolbar>
     </q-header>
 

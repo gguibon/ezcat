@@ -102,7 +102,7 @@ export default new Vuex.Store({
                     var text = line.split(' - ')[1].split(': ')[1];
                     var nbWords = text.split(' ').length;
                     var labels =  {};
-                    labels[getters.firstMsgLabel.key] = "Neutral"; //null;
+                    labels[getters.firstMsgLabel.key] = null;
                     messages.push({"time": datetime, "text": text, "author": author, "nbWords": nbWords, "labels": labels });
                     authorsSet.add(author);
                 }
