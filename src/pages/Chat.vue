@@ -27,7 +27,7 @@
         <template v-slot:navigation>
           <q-stepper-navigation>
             <q-btn v-show="step<2" @click="$refs.stepper.next()" color="primary" :label="step === 2 ? 'Finish' : 'Continue'" :disable="!allTagged"  />
-            <q-btn v-show="step === 2" to="/" @click="saveChanges()" color="positive" :label="step === 2 ? 'Finish' : 'Continue'" :disable="!convTagged" />
+            <q-btn v-show="step === 2" to="/hub" @click="saveChanges()" color="positive" :label="step === 2 ? 'Finish' : 'Continue'" :disable="!convTagged" />
             <q-btn v-if="step > 1" flat color="primary" @click="$refs.stepper.previous()" label="Back" class="q-ml-sm" />
           </q-stepper-navigation>
         </template>

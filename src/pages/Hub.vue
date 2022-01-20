@@ -201,7 +201,65 @@ export default {
 				}
 				reader.readAsText(this.upload);
 			} else if (this.uploadMode == 'telegram') {
-				// TODO
+				var reader = new FileReader();
+				reader.onload = function(event) {
+					store.dispatch('setChatsFromTelegram', event.target.result);
+
+					// var content = event.target.result;
+					// console.log('content telegram', content);
+					
+					// var parser = new DOMParser();
+					// var doc = parser.parseFromString(content, "text/html");
+					// // 'from_name' 'date' 'text'
+					
+					// var nodesSnapshot = document.evaluate('//div[@class="from_name"]', doc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null );
+					// var authors = [];
+					// for ( var i=0 ; i < nodesSnapshot.snapshotLength; i++ ) authors.push( nodesSnapshot.snapshotItem(i).textContent.trim() );
+					// console.log('authors', JSON.stringify(authors));
+
+					// var nodesSnapshot = document.evaluate('//div[@class="initials"]', doc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null );
+					// var initials = [];
+					// for ( var i=0 ; i < nodesSnapshot.snapshotLength; i++ ) initials.push( nodesSnapshot.snapshotItem(i).textContent.trim() );
+					// console.log('authors', JSON.stringify(initials));
+
+					// var nodesSnapshot = document.evaluate('//div[@class="text"]', doc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+					// var texts = [];
+					// for ( var i = 0; i < nodesSnapshot.snapshotLength; i++ ) texts.push( nodesSnapshot.snapshotItem(i).textContent.trim() );
+					// console.log('texts', JSON.stringify(texts));
+
+					// var nodesSnapshot = document.evaluate('//div[@class="pull_right date details"]', doc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+					// var dates = [];
+					// for ( var i = 0; i < nodesSnapshot.snapshotLength; i++ ) dates.push( nodesSnapshot.snapshotItem(i).title );
+					// console.log('dates', dates);
+
+					// // requires to handle text formatting to keep the information as memo. Other dedicated xpaths does not satisfy this issue.
+					// var nodesSnapshot = document.evaluate('//div[contains(@class,\'message\') and not(contains(@class,\'service\'))]', doc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+					// var messages = [];
+					// for ( var i = 0; i < nodesSnapshot.snapshotLength; i++ ) messages.push( nodesSnapshot.snapshotItem(i).textContent.trim() );
+
+					// var memo = {'author':null,'date':null,'text':null};
+					// var results = null;
+					// var idByIndex = 0;
+					// for (var message of messages) {
+					// 	message = message.replace(/\s\s+/g,'\n').split('\n');
+					// 	var res = {};
+					// 	if (message.length == 2){
+					// 		res = {'date':message[0], 'author':memo['author'], 'text': message.slice(1).join(' ')};
+					// 	}else {
+					// 		if (message[3] == "In reply to this message") { message.splice(3, 1); }
+					// 		res = {'date':message[1], 'author':message[2], 'text':message.slice(3).join(' ')};
+					// 		memo = res;
+					// 	}
+					// 	var newdata = {"id":"1", "done": false, "datetime": "unk", "duration": "unk", "messages": messages, "labels": {}, "nbMessages": messages.length, "nbMessagesPerSpeakingSlot": null, "nbWords": null, "realDuration": "unk", "speakingSlots": []};
+					// }
+
+					// var newdata = {"id":"1", "done": false, "datetime": "unk", "duration": "unk", "messages": messages, "labels": {}, "nbMessages": messages.length, "nbMessagesPerSpeakingSlot": null, "nbWords": null, "realDuration": "unk", "speakingSlots": []};
+
+
+					// console.log('lengths', authors.length, initials.length, messages.length, dates.length);
+
+				}
+				reader.readAsText(this.upload);
 			} else {
 				var reader = new FileReader();
 				reader.onload = function(event) {

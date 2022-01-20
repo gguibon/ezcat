@@ -107,8 +107,10 @@ export default new Vuex.Store({
                     authorsSet.add(author);
                 }
             }
+
+            var conv_name = Array.from(authorsSet).join(' & ');
             
-            var newdata = {"id":"1", "done": false, "datetime": "unk", "duration": "unk", "messages": messages, "labels": {}, "nbMessages": messages.length, "nbMessagesPerSpeakingSlot": null, "nbWords": null, "realDuration": "unk", "speakingSlots": []};
+            var newdata = {"id":conv_name, "done": false, "datetime": "unk", "duration": "unk", "messages": messages, "labels": {}, "nbMessages": messages.length, "nbMessagesPerSpeakingSlot": null, "nbWords": null, "realDuration": "unk", "speakingSlots": []};
             
             for (var name of getters.getChatLabelNames) newdata["labels"][name] = null;
             
@@ -118,7 +120,51 @@ export default new Vuex.Store({
 
             newdata["wordsPerMessage"] = newdata.nbWords / newdata.messages.length;
 
-            commit('set_chats', {"1": newdata});
+            var data_to_send = {}; data_to_send[conv_name] = newdata;
+            commit('set_chats', data_to_send);
+        },
+        setChatsFromTelegram({commit, getters}, content){
+            var parser = new DOMParser();
+            var doc = parser.parseFromString(content, "text/html");
+            var nodesSnapshot = document.evaluate('//div[contains(@class,\'message\') and not(contains(@class,\'service\'))]', doc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+
+            var msn_list = [];
+            for ( var i = 0; i < nodesSnapshot.snapshotLength; i++ ) msn_list.push( nodesSnapshot.snapshotItem(i).textContent.trim() );
+
+            var memo = {'author':null,'time':null,'text':null};
+            var messages = [];
+            var authorsSet = new Set();
+            var idByIndex = 0;
+            for (var msn of msn_list) {
+                msn = msn.replace(/\s\s+/g,'\n').split('\n');
+                var res = {};
+                if (msn.length == 2){
+                    res = {'time':msn[0], 'author':memo['author'], 'text': msn.slice(1).join(' ')};
+                }else {
+                    if (msn[3] == "In reply to this message") { msn.splice(3, 1); }
+                    res = {'time':msn[1], 'author':msn[2], 'text':msn.slice(3).join(' ')};
+                    memo = res;
+                }
+                var labels =  {};
+                labels[getters.firstMsgLabel.key] = null;
+                messages.push({"time": res['time'], "text": res['text'], "author": res['author'], "nbWords": res['text'].split(' ').length, "labels": labels });
+                authorsSet.add(res['author']);
+            }
+
+            var conv_name = Array.from(authorsSet).join(' & ');
+
+            var newdata = {"id":conv_name, "done": false, "datetime": "unk", "duration": "unk", "messages": messages, "labels": {}, "nbMessages": messages.length, "nbMessagesPerSpeakingSlot": null, "nbWords": null, "realDuration": "unk", "speakingSlots": []};
+            
+            for (var name of getters.getChatLabelNames) newdata["labels"][name] = null;
+            
+            var nbWords = 0;
+            for (var msg in messages) { nbWords += msg.nbWords; }
+            newdata["nbWords"] = nbWords;
+
+            newdata["wordsPerMessage"] = newdata.nbWords / newdata.messages.length;
+
+            var data_to_send = {}; data_to_send[conv_name] = newdata;
+            commit('set_chats', data_to_send);
         },
         updateChat({commit}, chat){
             commit('update_chat', chat);
