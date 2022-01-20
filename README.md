@@ -77,7 +77,6 @@ to finish
 - [ ] project dedicated README
 - [ ] separated technical README
 - [ ] wiki/docs for usage
-- [ ] fix telegram import
 - [ ] provide native installers
 
 # Contacts

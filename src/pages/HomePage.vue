@@ -49,7 +49,13 @@
 									<div class="text-justify text-body1">
 										EZCAT can handle conversations from instant messaging applications. The data will be formatted into our JSON representation.
 									</div>
+									<div class="text-justify text-h6">
+										Try our different dummy files for starter: 
+									</div>
 									</q-card-section>
+									<q-card-actions>
+										<q-btn color="positive" icon="whatsapp" href="https://github.com/gguibon/ezcat/tree/main/public/dummy_files/dummy_whatsapp_export.txt" target="_blank" /> <q-btn color="blue" icon="telegram" href="https://github.com/gguibon/ezcat/tree/main/public/dummy_files/dummy_telegram_export.html" target="_blank"/> <q-btn icon="data_object" href="https://github.com/gguibon/ezcat/tree/main/public/dummy_files/dummy_chats.json" target="_blank"/>
+									</q-card-actions>
 								</q-card-section>
 								<div class="col"></div>
 								<div class="col col-md-5">
