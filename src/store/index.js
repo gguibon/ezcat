@@ -34,7 +34,7 @@ export default new Vuex.Store({
                     title: "intent",
                     description: "intent values",
                     mandatory: true,
-                    type: "listselect",
+                    type: "chip",
                     values: ["Purchase", "Downgrade", "Unsubscribe", "Demo Request"]
                 }
             },

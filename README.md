@@ -4,11 +4,19 @@
 
 This online annotation tool was first fully dedicated to the annotation campaign made at Télécom Paris and SNCF. While the annotation campaign is over, this annotation tool is still hosted online. We refactored the tool and made it into a customizable applciation dedicated to conversation annotation. We also added some features such as the import of instant messaging applications' conversation in order to enable their easy annotation.
 
-
 ## Live Version
 
 [https://gguibon.github.io/ezcat/](https://gguibon.github.io/ezcat/)
 
+
+## New features on EZCAT 1.1.0
+
+EZCAT 1.1.0 comes with some new features:
+- multilabel at the message level
+- multiple label types at the message level
+- new message level display (chips), customizable for each label (`listselect` or `chip`). Chips are now the default display for message level labels as it allows a faster annotation process
+- fix: intermediate display on big phones. Now the labels are always visible even in intermediate to small screens
+- fix: the app will automatically fix the underlaying data representation to correspond to multilabels for message labels
 
 ## Install the dependencies
 ```bash
