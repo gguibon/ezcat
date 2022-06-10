@@ -18,6 +18,27 @@ EZCAT 1.1.0 comes with some new features:
 - fix: intermediate display on big phones. Now the labels are always visible even in intermediate to small screens
 - fix: the app will automatically fix the underlaying data representation to correspond to multilabels for message labels
 
+## Citation
+
+If you found this work useful, please cite the following paper:
+
+```
+@inproceedings{guibon-2022-ezcat,
+    title = "EZCAT: an Easy Conversation Annotation Tool",
+    author = {Guibon, Ga{\"e}l  and
+      Labeau, Matthieu  and
+      Lefeuvre, Luce  and
+      Clavel, Chlo{\'e}},
+    booktitle = "Proceedings of the 13th Language Resources and Evaluation Conference",
+    month = june,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    abstract = "Users generate content constantly, leading to new data requiring annotation. Among this data, textual conversations are created every day and come with some specificities: they are mostly private through instant messaging applications, requiring the conversational context to be labeled. These specificities led to several annotation tools dedicated to conversation, and mostly dedicated to dialogue tasks, requiring complex annotation schemata, not always customizable and not taking into account conversation-level labels. In this paper, we present EZCAT, an easy-to-use interface to annotate conversations in a two-level configurable schema, leveraging message-level labels and conversation-level labels at once. Our interface is characterized by the voluntary absence of a server and accounts management, enhancing its availability to anyone, and the control over data, which is crucial to confidential conversations. We also present our first usage of EZCAT along with our annotation schema we used to annotate confidential customer service conversations. EZCAT is freely available at https://gguibon.github.io/ezcat",
+    language = "English",
+}
+```
+
 ## Install the dependencies
 ```bash
 npm install
