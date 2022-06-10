@@ -26,9 +26,16 @@ export default new Vuex.Store({
                     title: "Emotion",
                     description: "Main emotion for this message.",
                     mandatory: true,
-                    type: 'listselect',
+                    type: 'chip',
                     // values: ['Surprise', 'Amusement', 'Satisfaction', 'Soulagement', 'Neutre', 'Peur', 'Tristesse', 'Déception', 'Colère', 'Frustration']
                     values: ['Surprise', 'Amusement', 'Satisfaction', 'Relief', 'Neutral', 'Fear', 'Sadness', 'Disappointment', 'Anger', 'Frustration']
+                },
+                intent: {
+                    title: "intent",
+                    description: "intent values",
+                    mandatory: true,
+                    type: "listselect",
+                    values: ["Purchase", "Downgrade", "Unsubscribe", "Demo Request"]
                 }
             },
             chatLabels: {

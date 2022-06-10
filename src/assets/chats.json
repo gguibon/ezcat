@@ -13,7 +13,7 @@
             {
                 "author": "customer",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 1,
                 "text": "hi ",
@@ -22,7 +22,7 @@
             {
                 "author": "operator",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 13,
                 "text": "Good evening and welcome the customer service. How can I help you?",
@@ -31,7 +31,7 @@
             {
                 "author": "operator",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 5,
                 "text": "Are you still there? ",
@@ -40,7 +40,7 @@
             {
                 "author": "customer",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 1,
                 "text": "yes",
@@ -49,7 +49,7 @@
             {
                 "author": "customer",
                 "labels": {
-                    "emotion": "Frustration"
+                    "emotion": ["Frustration"]
                 },
                 "nbWords": 19,
                 "text": "i can't book my ticket. doesn't work!",
@@ -58,7 +58,7 @@
             {
                 "author": "customer",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 19,
                 "text": "can you do smth about it?",
@@ -67,7 +67,7 @@
             {
                 "author": "operator",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 19,
                 "text": "Please give me more details on your problem.",
@@ -76,7 +76,7 @@
             {
                 "author": "customer",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 19,
                 "text": "when I try to book my ticket, it freezes and keep loading",
@@ -85,7 +85,7 @@
             {
                 "author": "customer",
                 "labels": {
-                    "emotion": "Frustration"
+                    "emotion": ["Frustration"]
                 },
                 "nbWords": 19,
                 "text": "it's not the first time!!",
@@ -94,7 +94,7 @@
             {
                 "author": "customer",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 19,
                 "text": "is it a browser issue?",
@@ -103,7 +103,7 @@
             {
                 "author": "customer",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 19,
                 "text": "nevermind I found the problem",
@@ -112,7 +112,7 @@
             {
                 "author": "alert",
                 "labels": {
-                    "emotion": "Neutral"
+                    "emotion": ["Neutral"]
                 },
                 "nbWords": 9,
                 "text": "The operator just closed the chat window.",

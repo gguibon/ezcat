@@ -35,7 +35,7 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 See [Reference](https://electron.github.io/electron-packager/main/)
 
 ```
-quasar build -m electron -t linux
+quasar build -m electron -t [linux|macOS]
 ```
 
 Then cd to 
@@ -48,15 +48,23 @@ sudo apt install fakeroot
 ```
 
 ```
-npx electron-packager . app --platform linux --arch x64 --out dist/
+npx electron-packager . ezcat --platform [linux|darwin] --arch x64 --out dist/
 ```
 where `app` is the name of the application (`poc` for instance)
 
 
 ### package for debian
 ```
-electron-installer-debian --src dist/app-linux-x64/ --dest dist/installers/ --arch amd64
+electron-installer-debian --src dist/ezcat-linux-x64/ --dest dist/installers/ --arch amd64
 ```
+
+### package for mac OS
+
+```
+electron-installer-dmg dist/ezcat-darwin-x64/ezcat.app dist/installers/ --icon img/ezcatfavicon.png --title EZCAT --out dist/installers/
+```
+
+
 
 ## Cordova Builds for Mobile Installers
 
