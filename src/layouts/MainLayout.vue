@@ -27,6 +27,10 @@
 
         <q-space />
 
+        <q-btn flat dense icon="comment" aria-label="Feedback" href="https://forms.gle/nwmkqGTmQgsBhScv8" target="_blank">
+          <q-tooltip :delay="200">Feedback</q-tooltip>
+        </q-btn>
+
         <q-btn flat dense icon="fab fa-github" aria-label="Github" href="https://github.com/gguibon/ezcat" target="_blank">
           <q-tooltip :delay="200">Source Code</q-tooltip>
         </q-btn>
