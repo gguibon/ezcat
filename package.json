@@ -6,7 +6,10 @@
   "author": "gguibon <gael.guibon@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa"
   },
   "dependencies": {
     "@quasar/extras": "^1.12.2",
