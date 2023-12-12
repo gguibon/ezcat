@@ -23,6 +23,11 @@
 
 				<q-space />
 
+				<!-- 
+				   Remove this to not cause confusion
+				   Only interesed in pre-uploaded data
+				-->
+				<!---
 				<q-card flat>
 					<q-card-section class="row">
 						<q-card flat class="col full-width">
@@ -307,7 +312,7 @@
 					</q-card-section>
 
 				</q-card>
-
+				--->
 			</div>
 		</q-page>
 	</q-page-container>
