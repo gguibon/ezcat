@@ -17,7 +17,8 @@
 					</q-card-section>
 
 					<q-card-actions align="center">
-						<q-btn id="start" rounded to="/hub" color="positive" no-caps>START</q-btn>
+						<q-btn id="start" rounded to="/hub" color="purple" no-caps>Start
+							Annotating</q-btn>
 					</q-card-actions>
 				</q-card>
 

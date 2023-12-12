@@ -1,22 +1,22 @@
 <template>
   <q-layout view="hHh Lpr fFf">
-    <q-header elevated >
+    <q-header elevated>
       <q-toolbar>
-        
-        <q-avatar square>
-            <img src="img/ezcat_favicon.png">
+
+        <q-avatar square class="q-mr-sm">
+          <img src="img/ezcat_favicon.png">
         </q-avatar>
 
+        <q-avatar square>
+          <img style="filter: brightness(0) invert(1);" src="img/warwick_favicon.png">
+        </q-avatar>
 
-
-        <q-toolbar-title>
-          EZCAT: an Easy Conversation Annotation Tool
-        </q-toolbar-title>
+        <q-space />
 
         <q-btn flat dense icon="home" aria-label="Home" to="/" label="Home Page">
           <q-tooltip :delay="200">Click here to go to the home page</q-tooltip>
         </q-btn>
-        
+
         <q-btn flat dense icon="list" aria-label="Hub" to="/hub" label="Chat List">
           <q-tooltip :delay="200">Click here to go back to the conversation list</q-tooltip>
         </q-btn>
@@ -31,7 +31,8 @@
           <q-tooltip :delay="200">Feedback</q-tooltip>
         </q-btn>
 
-        <q-btn flat dense icon="fab fa-github" aria-label="Github" href="https://github.com/gguibon/ezcat" target="_blank">
+        <q-btn flat dense icon="fab fa-github" aria-label="Github" href="https://github.com/gguibon/ezcat"
+          target="_blank">
           <q-tooltip :delay="200">Source Code</q-tooltip>
         </q-btn>
 
@@ -51,7 +52,7 @@ export default {
 
   components: {},
 
-  data () {
+  data() {
     return {
       leftDrawerOpen: false
     }
