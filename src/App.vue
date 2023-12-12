@@ -7,15 +7,13 @@
 <script>
 
 import chats from 'assets/chats.json'
+import config from 'assets/annotation-config.json'
+
 export default {
   name: 'App',
-  mounted(){
-    this.loadChats();
-  },
-  methods:{
-    loadChats(){
-      this.$store.dispatch('setChats', chats);
-    }
+  mounted() {
+    this.$store.dispatch('setChats', chats);
+    this.$store.dispatch('setConfig', config);
   }
 }
 </script>
