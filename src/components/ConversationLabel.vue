@@ -24,7 +24,8 @@
         </div>
         <div v-else-if="$props.labelInfo.type == 'text'">
             <span class="text-blue-grey-8">{{ $props.labelInfo.title }}</span>
-            <q-input v-model="text" label="Text annotation..." :dense="dense" />
+            <q-input v-model="label" @input="setValue()" :label="$props.labelInfo.value" label="Text annotation..." />
+            <q-tooltip :delay="200">{{ $props.labelInfo.description }}</q-tooltip>
         </div>
         <div v-else>
             <q-banner class="bg-grey-3">
@@ -60,6 +61,7 @@ export default {
             else { return 'no'; }
         },
         setValue() {
+            console.log({ label: this.label, chatData: this.$props.chatData, labelName: this.$props.labelName });
             this.$props.chatData[this.$props.labelName] = this.label;
             this.$props.parentUpdateConvLabel(this.$props.labelName, this.label);
         },

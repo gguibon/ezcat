@@ -44,7 +44,8 @@
             "title": "raw",
             "description": "Raw label for message",
             "mandatory": true,
-            "type": "text"
+            "type": "text",
+            "value": null
         }
     },
     "chatLabels": {
@@ -108,7 +109,8 @@
             "title": "Raw text annotation",
             "description": "Raw label for this conversation",
             "mandatory": true,
-            "type": "text"
+            "type": "text",
+            "value": null
         }
     }
 }

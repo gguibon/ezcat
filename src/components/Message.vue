@@ -72,7 +72,8 @@
                 </div>
                 <div class="column" v-if="msglabel.type == 'text'">
                     <strong>{{ msglabelkey }}:</strong>
-                    <q-input v-model="text" label="Text annotation..." :dense="dense" />
+                    <!--- TODO: finish --->
+                    <q-input :label="msglabelkey" label="Text annotation..." />
                 </div>
                 <div v-else>
                     <strong>{{ msglabelkey }}:</strong>
@@ -142,6 +143,7 @@ export default {
         updateData() {
             // this.messageData.labels[ this.$store.getters.firstMsgLabel.key ] = this.label;
             // this.$props.parentUpdateMessage(this.$props.index, this.messageData);
+            console.log({ label: this.label, messageData: this.messageData, props: this.$props });
             this.messageData.labels = this.label;
             this.$props.parentUpdateMessage(this.$props.index, this.messageData);
             this.$forceUpdate();
