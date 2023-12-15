@@ -9,8 +9,8 @@
 				</q-card-section>
 
 				<q-card-section>
-					<div class="text-center text-bold text-blue-grey-10 text-h4">Warwick & EZCat: Data Annotation
-						Tool</div>
+					<div class="text-center text-bold text-blue-grey-10 text-h4">VAWG Chat Annotation Tool
+					</div>
 				</q-card-section>
 
 				<q-card-actions align="center">
