@@ -12,6 +12,12 @@
 				<q-btn dense class="q-ml-sm" icon="save" @click="save()" color="positive">
 					<q-tooltip :delay="200">Save your configuration.</q-tooltip>
 				</q-btn>
+				<q-btn dense class="q-ml-sm" icon="bookmark_add" @click="save(true)" color="positive">
+					<q-tooltip :delay="200">Save your configuration in local storage.</q-tooltip>
+				</q-btn>
+				<q-btn v-show="configInStorage" dense class="q-ml-sm" icon="bookmark_remove" @click="clear()" color="negative" >
+					<q-tooltip :delay="200">Clear configuration from local storage.</q-tooltip>
+				</q-btn>
 			</q-toolbar>
 			<q-card-section class="codemirror">
 				<codemirror v-model="annofjson" :options="cmOption"></codemirror>
@@ -51,6 +57,10 @@
 
 import store from '../store/index';
 
+// import { ref } from 'vue';
+
+// const 
+
 import { codemirror } from "vue-codemirror";
 import "codemirror/mode/python/python.js";
 // import "codemirror/mode/javascript.js";
@@ -69,6 +79,7 @@ export default {
 			annofjson: JSON.stringify(this.$store.getters.getConfig, null, 4),
 			annofok: true,
 			annofcomment: '',
+			configInStorage: localStorage.hasOwnProperty('ezcat_config'),
 			cmOption: {
 				tabSize: 4,
 				styleActiveLine: true,
@@ -77,19 +88,33 @@ export default {
 				line: true,
 				mode: 'python',
 				theme: 'material-darker',
-			},
+			}
 		}
 	},
 	computed: {
 	},
 	methods: {
-		save() {
+		save(localstorage = false) {
 			var content = JSON.parse(this.annofjson);
 			this.$store.dispatch('updateConfig', content);
+			if (localstorage == true) {
+				localStorage.setItem('ezcat_config', JSON.stringify(content));
+			}
+			this.configInStorage = localStorage.hasOwnProperty('ezcat_config');
 			this.$q.notify({
-				message: "Config saved in memory!!",
-				color: 'warning',
+				message: localstorage ? "Config saved in local storage!!" : "Config saved in memory!!",
+				color: localstorage ? 'positive' : 'warning',
 				position:'top-right'
+			});
+		},
+		clear() {
+			localStorage.removeItem('ezcat_config');
+			this.configInStorage = localStorage.hasOwnProperty('ezcat_config');
+			this.$q.notify({
+				message: "Config removed from local storage",
+				textColor: "black",
+				color: "info",
+				position: "top-right"
 			});
 		},
 		downloadConfig() {

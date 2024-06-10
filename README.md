@@ -9,6 +9,11 @@ This online annotation tool was first fully dedicated to the annotation campaign
 [https://gguibon.github.io/ezcat/](https://gguibon.github.io/ezcat/)
 
 
+## New feature on EZCAT 1.2.0
+
+EZCAT 1.2.0 comes with one requested feature: local storage for the annotaion config.
+You can now decide to either save the configuration on memory (which disappear upon closing the tab), or save / erase the configuration from the local storage of your browser. This prevents having to load the configuration file everytime.
+
 ## New features on EZCAT 1.1.0
 
 EZCAT 1.1.0 comes with some new features:
@@ -111,6 +116,7 @@ to finish
 
 # Improvements Coming Soon
 
+- [x] local storage for configuration file (optional)
 - [ ] project dedicated README
 - [ ] separated technical README
 - [ ] wiki/docs for usage

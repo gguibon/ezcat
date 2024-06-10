@@ -18,7 +18,7 @@ export default new Vuex.Store({
         chats: null,
         defaultAuthorIcon: {"default": "account_circle"},
         defaultAuthorColors: ["blue", "cyan", "purple"],
-        config: {
+        config: localStorage.hasOwnProperty('ezcat_config') ? JSON.parse(localStorage.getItem('ezcat_config')) : {
             authorColorMap: { 'operator':'purple', 'customer':'cyan', 'alert':'black'},
             authorIconMap: {'operator':'verified', 'customer':'account_circle', 'alert':'feedback'},
             msgLabels: {
