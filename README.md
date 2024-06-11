@@ -23,6 +23,14 @@ EZCAT 1.1.0 comes with some new features:
 - fix: intermediate display on big phones. Now the labels are always visible even in intermediate to small screens
 - fix: the app will automatically fix the underlaying data representation to correspond to multilabels for message labels
 
+## Who is using it?
+
+EZCAT is used by:
+- [Mingi Shin et al. 2024](https://ieeexplore.ieee.org/abstract/document/10488271)
+
+
+If you are using EZCAT and want to appear in the following list, just send me an email with one sentence about your usage!
+
 ## Citation
 
 If you found this work useful, please cite the following paper:
@@ -43,6 +51,9 @@ If you found this work useful, please cite the following paper:
     language = "English",
 }
 ```
+
+
+
 
 ## Install the dependencies
 ```bash

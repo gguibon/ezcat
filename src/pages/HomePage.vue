@@ -21,6 +21,32 @@
 
 				<q-space/>
 
+				<q-card-section class="row">
+						<q-card flat class="col bg-white2 full-width" >
+							<q-card-section horizontal>
+								<q-card-section vertical class="col-12 col-md-6">
+									<q-card-section>
+									<div class="text-h5 text-blue-grey-10 text-bold">
+										<q-chip color="primary" outline text-color="white" label="Used by" /> EZCAT is used by:
+									</div>
+									<div class="text-subtitle2">
+										If you are using EZCAT and want to appear in the following list, just <q-btn dense color="primary" label="send me an email" @click="clipboard(email)" /> with one sentence about your usage!
+									</div>
+									</q-card-section>
+
+									<q-card-section horizontal class="row wrap q-gutter-xs">
+										<div class="col hoverlight">
+											<a href="https://warwick.ac.uk/" target="_blank"><img src="img/warwick_logo.png" style="max-width:35%" /></a>
+										</div>
+										<div class="col hoverlight">
+											<a href="https://ieeexplore.ieee.org/abstract/document/10488271" target="_blank">Mingi Shin et al., 2024<img  src="img/KAIST_logo.png" style="max-width:30%"/></a>
+										</div>
+									</q-card-section>
+								</q-card-section>
+							</q-card-section>
+						</q-card>
+					</q-card-section>
+
 				<q-card flat >
 					<q-card-section class="row">
 						<q-card flat class="col full-width" >
@@ -157,6 +183,11 @@
 					</q-card-section>
 
 					<q-space/>
+
+					
+
+					<q-space/>
+
 
 					<q-card-section class="row">
 						<q-card flat class="col bg-white2 full-width" >
@@ -296,6 +327,7 @@ export default {
 			mode: 'python',
 			theme: 'eclipse',
 		},
+		email: "gael.guibon@gmail.com",
 		bibtex: `
 @inproceedings{guibon-2022-ezcat,
     title = "EZCAT: an Easy Conversation Annotation Tool",
